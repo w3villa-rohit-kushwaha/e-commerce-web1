@@ -1,0 +1,48 @@
+
+form #newsearch2{
+    margin-top: 30px;
+}
+@media (max-width:1185px)
+{
+.bottom-navbar-menu-container 
+{
+ display: none;
+}
+#newselect
+{
+    padding: 2% 10% !important;
+}
+form #newsearch
+{       
+  padding: 10px 40px!important;
+  
+}
+}
+@media(max-width:1773px)
+{
+    #newselect
+    {
+        padding: 3% 20% !important;
+    } 
+    form #newsearch2
+    {       
+        padding: 10px 40px!important;
+    }
+}
+@media(max-width:773px)
+{
+    #hidediv
+    {
+        display: none;
+    }
+    #newselect
+    {
+        padding: 3% 30% !important;
+        margin-left :0% !important;
+        
+    } 
+    form #newsearch2
+    {       
+        padding: 10px 80px!important;
+    }
+}
